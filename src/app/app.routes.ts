@@ -1,6 +1,8 @@
 // src/app/app.routes.ts
 import { Routes } from '@angular/router';
+import { TableauComponent } from './tableau/tableau.component';
 
 export const routes: Routes = [
-  // Ajoutez vos routes ici si nécessaire
+  { path: '', component: TableauComponent },
+  // Ajoutez d'autres routes si nécessaire
 ];
